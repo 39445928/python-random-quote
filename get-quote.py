@@ -1,11 +1,17 @@
+# _*_ coding:utf-8 _*_
 def main():
-  # print("Keep it logically awesome.")
+    print("Keep it logically awesome.")
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+    f = open("quotes.txt")
 
-  #print(quotes)
+    quotes = f.readlines()
+    f.close()
 
-if __name__== "__main__":
-  main()
+    # with open("quotes.txt") as f:
+    #     quotes = f.readlines()
+
+    print(quotes)
+
+
+if __name__ == "__main__":
+    main()
